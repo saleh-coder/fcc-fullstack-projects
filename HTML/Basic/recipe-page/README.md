@@ -1,8 +1,6 @@
 # Build a Recipe Page
 
 ## Overview
-This project is a hands-on lab from the **Basic HTML** section of the freeCodeCamp Full Stack Developer Curriculum.
-
 The objective of the exercise was to practice fundamental HTML elements to create a recipe page, including headings, paragraphs, lists, and images.
 
 ## What I Practiced
