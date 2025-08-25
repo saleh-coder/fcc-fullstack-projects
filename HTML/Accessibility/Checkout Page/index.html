@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout Page</h1>
+    <main>
+        <section role="region" aria-labelledby="cart-heading">
+            <h2 id="cart-heading">Your Cart</h2>
+            <img src="./images/charlesdeluvio-1-nx1QR5dTE-unsplash.jpg"
+                alt="Gold framed hippie sunglasses on white surface." width="440" height="440">
+        </section>
+        <section role="region" aria-labelledby="payment-info-heading">
+            <h2 id="payment-info-heading">Payment Information</h2>
+            <form action="">
+                <label for="card-name">Card Name: </label>
+                <input type="text" id="card-name" name="card-name" required>
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" name="card-number" inputmode="numeric" pattern="\d{16}"
+                    title="Enter 16-digit card number" required>
+                <button type="submit">Pay Now</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
