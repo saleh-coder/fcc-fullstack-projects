@@ -29,7 +29,7 @@ A responsive personal business card built with HTML and CSS, displaying a profil
 
 ## 📸 Preview
 
-![Business Card Screenshot](./assets/screenshot/screenshot-card.png)
+![Business Card Screenshot](./assets/screenshot/screenshot.png)
 
 ## 📄 License
 
