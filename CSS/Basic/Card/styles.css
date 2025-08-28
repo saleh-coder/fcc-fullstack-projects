@@ -1,0 +1,67 @@
+body {
+    background-color: #c5cae9;
+    font-family: Arial, sans-serif;
+}
+
+.business-card {
+    width: 340px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 16px;
+    margin: 100px auto 0;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* -------------
+   LINKS GERAIS
+   ------------- */
+a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover,
+a:focus {
+    /* quando o link recebe foco (TAB no teclado) */
+    color: #8753a8;
+    text-decoration: underline;
+}
+
+
+/* --------------------------
+   LINK ESPECÍFICO: PORTFÓLIO
+   ------------------------ */
+a[href*="freecodecamp"] {
+    /* seleciona apenas o link que contém "freecodecamp" */
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #8753a8;
+}
+
+a[href*="freecodecamp"]:hover {
+    /* quando passa o mouse nesse link específico */
+    color: rgb(182, 225, 141);
+    text-decoration: none;
+}
+
+
+/* --------------------
+    SOCIAIS ICONS
+   -------------------- */
+.social-icons a {
+    color: #8753a8;
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: rgb(182, 225, 141);
+}
